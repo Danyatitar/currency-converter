@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Danyatitar/currency-converter/static/css/main.a5221009.css",
+    "main.js": "/Danyatitar/currency-converter/static/js/main.57d0746b.js",
+    "static/js/787.ca7f2fcd.chunk.js": "/Danyatitar/currency-converter/static/js/787.ca7f2fcd.chunk.js",
+    "index.html": "/Danyatitar/currency-converter/index.html",
+    "main.a5221009.css.map": "/Danyatitar/currency-converter/static/css/main.a5221009.css.map",
+    "main.57d0746b.js.map": "/Danyatitar/currency-converter/static/js/main.57d0746b.js.map",
+    "787.ca7f2fcd.chunk.js.map": "/Danyatitar/currency-converter/static/js/787.ca7f2fcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5221009.css",
+    "static/js/main.57d0746b.js"
+  ]
+}
