@@ -13,11 +13,11 @@ function Header({ USD, EUR }: HeaderProps) {
       </h1>
       <div className={styles.rates}>
         <p className={styles.rates_item}>
-          USD/UAH{" "}
+          USD/UAH
           <span className={styles.rates_item_content}>{String(USD)}</span>
         </p>
         <p className={styles.rates_item}>
-          USD/UAH{" "}
+          EUR/UAH
           <span className={styles.rates_item_content}>{String(EUR)}</span>
         </p>
       </div>

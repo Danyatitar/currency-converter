@@ -37,3 +37,8 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 450px) {
+  .inputs {
+    padding: 90px 15px;
+  }
+}
