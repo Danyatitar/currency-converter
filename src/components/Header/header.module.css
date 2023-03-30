@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  font-size: 50px;
+}
+.title_content {
+  color: #06e06f;
+  font-weight: 900;
+}
+.rates {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.rates_item {
+  color: white;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+.rates_item_content {
+  display: block;
+  margin-top: 5px;
+  color: #06e06f;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+.error {
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and(max-width:767px) {
+  .error {
+    font-size: 14px;
+  }
+}

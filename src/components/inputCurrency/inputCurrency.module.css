@@ -1,0 +1,78 @@
+.currency {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.currency_item {
+  position: relative;
+  display: block;
+}
+.label {
+  display: block;
+  color: white;
+  padding-left: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.amount {
+  box-sizing: border-box;
+  padding: 15px 20px;
+  border-radius: 25px;
+  max-width: 250px;
+  font-size: 27px;
+  line-height: 1.15;
+  color: gray;
+  background-color: transparent;
+  border: 1px solid gray;
+  transition: all 0.4s ease;
+}
+.amount:focus {
+  outline: none;
+  color: white;
+  border-color: #06e06f;
+  box-shadow: 9px 11px 21px 2px rgba(0, 0, 0, 0.83);
+}
+.amount:focus .label {
+  color: #06e06f;
+}
+.currency_content {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 25px;
+  max-width: 250px;
+  font-size: 27px;
+  line-height: 1.15;
+  color: #06e06f;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid gray;
+  transition: all 0.4s ease;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.currency_content {
+  background-image: linear-gradient(45deg, transparent 50%, #06e06f 50%),
+    linear-gradient(135deg, #06e06f 50%, transparent 50%),
+    linear-gradient(to right, #06e06f, #06e06f);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), calc(100% - 1.7em) 0.45em;
+  background-size: 5px 5px, 5px 5px, 1px 1.4em;
+  background-repeat: no-repeat;
+}
+
+.currency_content:focus:focus {
+  background-image: linear-gradient(45deg, #06e06f 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #06e06f 50%),
+    linear-gradient(to right, #06e06f, #06e06f);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: #06e06f;
+  outline: 0;
+}
